@@ -67,9 +67,6 @@ void login() {
 
     printf("Enter password: ");
     scanf("%s", password);
-    
-    printf("Enter flag (0/1): ");
-    scanf("%s", flag);
 
     for (int i = 0; i < numUsers; i++) {
         if (strcmp(users[i].username, username) == 0 && strcmp(users[i].password, password) == 0) {
